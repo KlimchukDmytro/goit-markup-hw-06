@@ -107,6 +107,8 @@ img {
     background-color: transparent;
     cursor: pointer;
     bottom: none;
+    fill: #2F2F37;
+    /* border: none; */
 
 }
 
