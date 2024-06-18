@@ -147,6 +147,7 @@ img {
 
 .mob-menu-item {}
 
+
 .mob-menu-link {
     font-weight: 700;
     font-size: 36px;
@@ -154,9 +155,11 @@ img {
     letter-spacing: 0.02em;
     color:#2E2F42 ;
 }
-
-.mob-address {
+.mob-address-icon{
     margin-top: auto;
+}
+.mob-menu-icon{
+    margin-top: 48px;
 }
 
 .mob-address-menu-list {
@@ -362,6 +365,10 @@ img {
 
 /* --------- section 3-------------- */
 
+.container-team{
+    width: 296px;
+}
+
 .section-team {
     background-color: #F4F4FD;
     /* padding: 120px 0; */
@@ -483,8 +490,8 @@ img {
 }
 
 .portfolio-img{
-    width: 288px; 
-    height: 400px;
+    max-width: 100%;
+    height: auto;
 }
 
 .portfolio-item:hover .portfolio-cover-text {
@@ -1016,6 +1023,7 @@ img {
     .solutions-head {
         font-size: 56px;
         line-height: 107%;
+        max-width: 496px;
     }
 
 
@@ -1029,6 +1037,10 @@ img {
     }
     .feactures-subtitle{
         text-align: left;
+    }
+
+    .container-team{
+        width: 584px;
     }
 
 
@@ -1063,11 +1075,12 @@ img {
          display: flex;
         flex-wrap: wrap;
         gap: 72px 24px;
-        padding-left: 92px;
+        min-width: 584px;   
     }
     .footer-studio{
-        max-width: 288px;
         margin-bottom: 0;
+        display: initial;
+       
     }
     .footer-link{
         text-align: left;
@@ -1075,6 +1088,7 @@ img {
     }
     .footer-social{
         margin-bottom: 0;
+        margin-top: 0;
     }
     .footer-text-two{
         text-align: left;
@@ -1134,6 +1148,10 @@ img {
         padding: 120px 0;
     }
 
+    .section-solutions {
+        padding: 188px 0;
+    }    
+
     .solutions-head {
         max-width: 496px;
     }
@@ -1178,6 +1196,9 @@ img {
             url(../images/people-office-2x.jpg);
     }
 
+    .section-team{
+        padding: 120px 0;
+    }
     .team-list{
         gap: 24px;
     }
@@ -1205,10 +1226,18 @@ img {
 
     .footer{
         padding: 100px 0;
+    
     }
     .footer-container {
         display: flex;
         align-items: baseline;
+        gap: unset;
+    }
+    .footer-studio{
+        margin-right: 120px;
+    }
+    .footer-social{
+        margin-right: 80px;
     }
     .footer-link{
         display: inline-block;
