@@ -1231,6 +1231,7 @@ img {
     .footer-container {
         display: flex;
         align-items: baseline;
+        flex-wrap: nowrap;
         gap: unset;
     }
     .footer-studio{
